@@ -67,11 +67,11 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I'm a highly motivated future software developer with a passion for 
+      tackling problems using Python and Java. My academic foundation fuels my 
+      desire to build intelligent and efficient solutions. I thrive on the challenge 
+      of crafting elegant and efficient code and enjoy the collaborative nature of software development. 
+      My eagerness to learn and dedication to continuous improvement drive me to excel in every project.`,
     },
     experience: {
       p: "What I have done so far",
@@ -84,11 +84,10 @@ export const config: TConfig = {
     works: {
       p: "My work",
       h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      content: `Following projects showcases my skills and experience with 
+      examples of my work. Each project is briefly described with
+    links to code repositories and links to websites where relevant. It reflects my
+    ability to solve problems and learn different technologies.`,
     },
   },
 };

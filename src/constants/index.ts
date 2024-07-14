@@ -12,17 +12,16 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  css,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  sql,
+  maccas,
+  feros,
   carrent,
   jobit,
   tripguide,
   python,
+  r,
+  java,
+  git
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -42,15 +41,15 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Leetcode Enthusiast",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Python Enjoyer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Problem Solver",
     icon: backend,
   },
   {
@@ -65,70 +64,46 @@ const technologies: TTechnology[] = [
     icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Git",
+    icon: git,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "SQL",
+    icon: sql,
   },
+  {
+    name: "R",
+    icon: r,
+  }, 
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Crew Trainer",
+    companyName: "McDonald's",
+    icon: maccas,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jul 2017 - Oct 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Training and onboarding new crew members on McDonald's procedures, food safety protocols, and customer service standards.",
+      "Providing ongoing coaching and guidance to existing crew members, ensuring they meet performance expectations.",
+      "Communicating effectively with managers and crew members, relaying important information and contributing to a seamless flow of operations.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "Front of House Leader",
+    companyName: "Feros Group",
+    icon: feros,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Oct 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Leading and mentoring junior front of house staff, providing guidance and support.",
+      "Collaborating closely with back of house teams to ensure smooth service and timely order delivery.",
+      "Addressing and resolving customer concerns, demonstrating strong conflict resolution skills and maintaining a positive atmosphere.",
     ],
   },
 ];
@@ -162,7 +137,28 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "YouTube Channel",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    youtubeLink: "https://github.com/",
+  },
+  {
+    name: "Formula 1 Website",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -183,28 +179,7 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
+    name: "Weight Tracking App",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [

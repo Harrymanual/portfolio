@@ -2,6 +2,7 @@ import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { github } from "../../assets";
+import { youtube } from "../../assets";
 import { SectionWrapper } from "../../hoc";
 import { projects } from "../../constants";
 import { fadeIn } from "../../utils/motion";
@@ -16,6 +17,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   tags,
   image,
   sourceCodeLink,
+  youtubeLink,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -26,26 +28,48 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
         tiltMaxAngleY={30}
         glareColor="#aaa6c3"
       >
-        <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px]">
+        <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px] relative"> {/* Added 'relative' here */}
           <div className="relative h-[230px] w-full">
             <img
               src={image}
               alt={name}
               className="h-full w-full rounded-2xl object-cover"
             />
-            <div className="card-img_hover absolute inset-0 m-3 flex justify-end">
-              <div
-                onClick={() => window.open(sourceCodeLink, "_blank")}
-                className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
-              >
-                <img
-                  src={github}
-                  alt="github"
-                  className="h-1/2 w-1/2 object-contain"
-                />
+
+            {/* Icon Container */}
+            <div className="card-img_hover absolute inset-0 m-3 flex justify-end"> 
+              <div className="flex h-10 w-fit cursor-pointer items-center justify-center"> 
+                {/* GitHub Link (Conditional) */}
+                {sourceCodeLink && (
+                  <div
+                    onClick={() => window.open(sourceCodeLink, "_blank")}
+                    className="black-gradient flex h-10 w-10 mr-2 items-center justify-center rounded-full"
+                  >
+                    <img
+                      src={github}
+                      alt="github"
+                      className="h-1/2 w-1/2 object-contain"
+                    />
+                  </div>
+                )}
+
+                {/* YouTube Link (Conditional) */}
+                {youtubeLink && (
+                  <div
+                    onClick={() => window.open(youtubeLink, "_blank")}
+                    className="black-gradient flex h-10 w-10 items-center justify-center rounded-full"
+                  >
+                    <img
+                      src={youtube}
+                      alt="youtube"
+                      className="h-1/2 w-1/2 object-contain"
+                    />
+                  </div>
+                )}
               </div>
-            </div>
-          </div>
+            </div> 
+          </div> 
+
           <div className="mt-5">
             <h3 className="text-[24px] font-bold text-white">{name}</h3>
             <p className="text-secondary mt-2 text-[14px]">{description}</p>

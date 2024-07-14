@@ -19,10 +19,10 @@ const Computers: React.FC<{ isMobile: boolean }> = ({ isMobile }) => {
         shadow-mapSize={1024}
       />
       <spotLight 
-        position={[40, 0, 10]} // Adjust position to shine from behind 
-        angle={0.2} // Adjust angle as needed
+        position={[40, 0, 0]} 
+        angle={10} // Adjust angle as needed
         penumbra={1} 
-        intensity={100} 
+        intensity={1000} 
         castShadow 
         shadow-mapSize={1024} 
       />

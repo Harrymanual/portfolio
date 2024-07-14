@@ -25,7 +25,8 @@ export type TProject = {
     color: string;
   }[];
   image: string;
-  sourceCodeLink: string;
+  sourceCodeLink?: string;
+  youtubeLink?: string; // Add the youtubeLink property here
 } & Required<Pick<TCommonProps, "name">>;
 
 export type TTechnology = Required<Omit<TCommonProps, "title">>;
