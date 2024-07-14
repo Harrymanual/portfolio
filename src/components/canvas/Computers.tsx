@@ -14,15 +14,23 @@ const Computers: React.FC<{ isMobile: boolean }> = ({ isMobile }) => {
         position={[-20, 50, 10]}
         angle={0.12}
         penumbra={1}
-        intensity={1}
+        intensity={20}
         castShadow
         shadow-mapSize={1024}
       />
-      <pointLight intensity={1} />
+      <spotLight 
+        position={[40, 0, 10]} // Adjust position to shine from behind 
+        angle={0.2} // Adjust angle as needed
+        penumbra={1} 
+        intensity={100} 
+        castShadow 
+        shadow-mapSize={1024} 
+      />
+      <pointLight intensity={20} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -4.25, -1.5]}
+        scale={isMobile ? 1 : 1.25}
+        position={isMobile ? [0, -1, -2.2] : [0, -2.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -68,6 +76,7 @@ const ComputersCanvas = () => {
           <Suspense fallback={<CanvasLoader />}>
             <OrbitControls
               enableZoom={false}
+              enableRotate={false}
               maxPolarAngle={Math.PI / 2}
               minPolarAngle={Math.PI / 2}
             />
