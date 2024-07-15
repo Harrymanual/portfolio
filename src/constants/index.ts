@@ -15,13 +15,14 @@ import {
   sql,
   maccas,
   feros,
-  carrent,
-  jobit,
-  tripguide,
   python,
   r,
   java,
-  git
+  git,
+  f1,
+  site,
+  weight,
+  tube
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -34,8 +35,8 @@ export const navLinks: TNavLink[] = [
     title: "Work",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "achievements",
+    title: "Achievements",
   },
 ];
 
@@ -111,15 +112,15 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I didn't realise such passionate workers existed before meeting Harry. Plus his muscles are huge.",
+      "Customers appreciate Harry's patient and helpful attitude. He's always willing to go the extra mile to ensure their needs are met and they have a positive experience.",
     name: "Karyna Deushian",
-    designation: "Licensee",
+    designation: "Former Licensee",
     company: "Ugly Pizza",
     image: "https://media.licdn.com/dms/image/D4E03AQGB2-CUSNxg5A/profile-displayphoto-shrink_800_800/0/1715688276652?e=1726704000&v=beta&t=U5oeHrcrSfEu3q-o9sZUJp7objBq6x1wpSrMulg4xBo",
   },
   {
     testimonial:
-      "He's so good with the customers, it's like he's magic!",
+      "Harry's dedication is truly commendable. He's a hard worker who consistently goes above and beyond, tackling challenges with enthusiasm and a strong drive to succeed.",
     name: "Louise Hannah-Cullen",
     designation: "Licensee",
     company: "Highfields",
@@ -127,10 +128,10 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Harry's communication skills extend seamlessly to his mentorship of junior team members. He explains concepts clearly, provides constructive feedback, and fosters a supportive learning environment.",
     name: "Brock Nelson",
-    designation: "CTO",
-    company: "456 Enterprises",
+    designation: "Licensee",
+    company: "Ugly Pizza",
     image: "https://scontent.fsyd11-1.fna.fbcdn.net/v/t39.30808-6/273975127_10226391841212150_6722240789011228886_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=_mQ1dCEysTwQ7kNvgGhEH2g&_nc_ht=scontent.fsyd11-1.fna&cb_e2o_trans=t&oh=00_AYDC5rRefaa26q5WTQpbQ5IYiMilRpSUsH8ZEwCSLcxSrQ&oe=6699228E",
   },
 ];
@@ -139,56 +140,57 @@ const projects: TProject[] = [
   {
     name: "YouTube Channel",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "My YouTube channel where I solve leetcode problems and typically upload my entire thought process and redo problems until I fully understand them.",
     tags: [
       {
-        name: "react",
+        name: "algorithms",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "communication",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "python",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    youtubeLink: "https://github.com/",
+    image: tube,
+    youtubeLink: "https://www.youtube.com/@harrycodesproblems",
   },
   {
     name: "Formula 1 Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      `A Formula 1 passion project where I learned how to create and deploy a website from scratch.`,
+    link: "https://harry-formula-1.onrender.com",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "jsx",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "server deployment",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: f1,
+    sourceCodeLink: "https://github.com/Harrymanual/Formula_1_Website_React",
   },
   {
     name: "Weight Tracking App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A weight tracking app built with react native. This app was created only using Chat GPT as my learning resource to see how effective it is at providing quality information. Spoiler alert not very.",
     tags: [
       {
-        name: "nextjs",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "sqlite",
         color: "green-text-gradient",
       },
       {
@@ -196,8 +198,30 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: weight,
+    sourceCodeLink: "https://github.com/Harrymanual/Weight-Tracker",
+  },
+  {
+    name: "Former Personal Website",
+    description:
+      "My first attempt using Github Pages to try and create a portfolio, including a blog and an about me section.",
+    link: "https://harrymanual.github.io/",
+    tags: [
+      {
+        name: "github",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jekyll",
+        color: "green-text-gradient",
+      },
+      {
+        name: "pages",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: site,
+    sourceCodeLink: "https://github.com/Harrymanual/Harrymanual.github.io",
   },
 ];
 

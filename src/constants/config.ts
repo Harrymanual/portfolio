@@ -46,7 +46,7 @@ export const config: TConfig = {
   },
   hero: {
     name: "Harrison Glenn",
-    p: ["I solve Leetcode problems and love software."],
+    p: ["I solve Leetcode problems and love software. You can catch me at the climbing gym or watching F1."],
   },
   contact: {
     p: "Get in touch",

@@ -24,16 +24,14 @@ import sql from "./tech/sql.png";
 import java from "./tech/java.png";
 import r from "./tech/r.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import maccas from "./company/maccas.png";
 import feros from "./company/feros.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
+import tube from "./personal_youtube.png";
+import f1 from "./personal_f1.png";
+import site from "./personal_site.png";
+import weight from "./personal_weight.png";
 
 export {
   logo,
@@ -55,18 +53,15 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   python,
   maccas,
   feros,
   sql,
   java,
   r,
-  youtube
+  youtube,
+  tube,
+  f1,
+  weight,
+  site
 };
