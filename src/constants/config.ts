@@ -65,26 +65,26 @@ export const config: TConfig = {
   },
   sections: {
     about: {
-      p: "Introduction",
+      p: "",
       h2: "Overview.",
-      content: `I'm a highly motivated future software developer with a passion for 
+      content: `I'm a highly motivated software developer with a passion for 
       tackling problems using Python and Java. My academic foundation fuels my 
       desire to build intelligent and efficient solutions. I thrive on the challenge 
       of crafting elegant and efficient code and enjoy the collaborative nature of software development. 
       My eagerness to learn and dedication to continuous improvement drive me to excel in every project.`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: "",
+      h2: "Work Experience",
     },
     feedbacks: {
       p: "What others say",
-      h2: "Testimonials.",
+      h2: "Testimonials",
     },
     works: {
       p: "My work",
-      h2: "Projects.",
-      content: `Following projects showcases my skills and experience with 
+      h2: "Projects",
+      content: `The following projects showcase my skills and experience with 
       examples of my work. Each project is briefly described with
     links to code repositories and links to websites where relevant. It reflects my
     ability to solve problems and learn different technologies.`,

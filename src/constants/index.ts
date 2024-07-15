@@ -90,7 +90,7 @@ const experiences: TExperience[] = [
     iconBg: "#383E56",
     date: "Jul 2017 - Oct 2021",
     points: [
-      "Training and onboarding new crew members on McDonald's procedures, food safety protocols, and customer service standards.",
+      "Training and onboarding new crew members on McDonald's procedures, food safety protocols and customer service standards.",
       "Providing ongoing coaching and guidance to existing crew members, ensuring they meet performance expectations.",
       "Communicating effectively with managers and crew members, relaying important information and contributing to a seamless flow of operations.",
     ],
@@ -103,7 +103,7 @@ const experiences: TExperience[] = [
     date: "Oct 2021 - Present",
     points: [
       "Leading and mentoring junior front of house staff, providing guidance and support.",
-      "Collaborating closely with back of house teams to ensure smooth service and timely order delivery.",
+      "Collaborating closely with back of house teams to ensure smooth service and on time deliveries.",
       "Addressing and resolving customer concerns, demonstrating strong conflict resolution skills and maintaining a positive atmosphere.",
     ],
   },
