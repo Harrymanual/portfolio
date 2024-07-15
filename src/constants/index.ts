@@ -46,7 +46,7 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "Python Enjoyer",
+    title: "Python Aficionado",
     icon: mobile,
   },
   {
@@ -115,15 +115,15 @@ const testimonials: TTestimonial[] = [
       "Customers appreciate Harry's patient and helpful attitude. He's always willing to go the extra mile to ensure their needs are met and they have a positive experience.",
     name: "Karyna Deushian",
     designation: "Former Licensee",
-    company: "Ugly Pizza",
+    company: "Ugly Pizza, Feros Group",
     image: "https://media.licdn.com/dms/image/D4E03AQGB2-CUSNxg5A/profile-displayphoto-shrink_800_800/0/1715688276652?e=1726704000&v=beta&t=U5oeHrcrSfEu3q-o9sZUJp7objBq6x1wpSrMulg4xBo",
   },
   {
     testimonial:
       "Harry's dedication is truly commendable. He's a hard worker who consistently goes above and beyond, tackling challenges with enthusiasm and a strong drive to succeed.",
-    name: "Louise Hannah-Cullen",
+    name: "Louise Hannan-Cullen",
     designation: "Licensee",
-    company: "Highfields",
+    company: "Highfields, Feros Group",
     image: "https://scontent.fsyd11-2.fna.fbcdn.net/v/t1.6435-9/181819382_1900624926756874_4840969318101900456_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=5-nptOQ6PcoQ7kNvgHumIqc&_nc_ht=scontent.fsyd11-2.fna&cb_e2o_trans=t&oh=00_AYBc3uDQgDHBjXzuUsLizL50ZO53ZS6lkSjEPFH1PO4EWg&oe=66BADFCB",
   },
   {
@@ -131,8 +131,16 @@ const testimonials: TTestimonial[] = [
       "Harry's communication skills extend seamlessly to his mentorship of junior team members. He explains concepts clearly, provides constructive feedback, and fosters a supportive learning environment.",
     name: "Brock Nelson",
     designation: "Licensee",
-    company: "Ugly Pizza",
+    company: "Ugly Pizza, Feros Group",
     image: "https://scontent.fsyd11-1.fna.fbcdn.net/v/t39.30808-6/273975127_10226391841212150_6722240789011228886_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=_mQ1dCEysTwQ7kNvgGhEH2g&_nc_ht=scontent.fsyd11-1.fna&cb_e2o_trans=t&oh=00_AYDC5rRefaa26q5WTQpbQ5IYiMilRpSUsH8ZEwCSLcxSrQ&oe=6699228E",
+  },
+  {
+    testimonial:
+      "Working with Harry is truly a pleasure. He brings a positive energy and collaborative spirit to work every day, making him a joy to be around. His enthusiasm is infectious!",
+    name: "Lachlan Feros",
+    designation: "Senior Manager",
+    company: "Highfields, Feros Group",
+    image: "https://scontent.fsyd11-1.fna.fbcdn.net/v/t39.30808-6/220275640_1486079521751482_1073711491261092201_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=p0K4LN4_uOcQ7kNvgHbjYJd&_nc_ht=scontent.fsyd11-1.fna&cb_e2o_trans=t&oh=00_AYBxIDtyuxMbcCWbfwqFgLVVaU-KPXbRYv0TxaniJUGvnw&oe=669A6C83",
   },
 ];
 
