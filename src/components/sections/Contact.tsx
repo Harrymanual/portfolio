@@ -17,7 +17,7 @@ const Achievements = () => {
           {/* Academic Achievements */}
           <div>
             <h3 className="text-2xl font-semibold text-white mb-4">
-              Academic Achievements (Relevant Subjects)
+              Academic Achievements (relevant subjects)
             </h3>
 
             {/* High Distinction */}
@@ -48,7 +48,7 @@ const Achievements = () => {
             <ul className="list-disc list-inside text-lg text-gray-300">
               <li>
                 "Customer Whisperer": Award for the staff member whose customer
-                service skills are above and beyond. 
+                service skills go above and beyond. 
               </li>
             </ul>
           </div>

@@ -66,7 +66,7 @@ export const config: TConfig = {
   sections: {
     about: {
       p: "",
-      h2: "Overview.",
+      h2: "Overview",
       content: `I'm a highly motivated software developer with a passion for 
       tackling problems using Python and Java. My academic foundation fuels my 
       desire to build intelligent and efficient solutions. I thrive on the challenge 
@@ -86,7 +86,7 @@ export const config: TConfig = {
       h2: "Projects",
       content: `The following projects showcase my skills and experience with 
       examples of my work. Each project is briefly described with
-    links to code repositories and links to websites where relevant. It reflects my
+    links to code repositories and websites where relevant. It reflects my
     ability to solve problems and learn different technologies.`,
     },
   },
