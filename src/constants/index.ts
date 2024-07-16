@@ -22,7 +22,8 @@ import {
   f1,
   site,
   weight,
-  tube
+  tube,
+  rwd
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -87,7 +88,7 @@ const experiences: TExperience[] = [
     title: "Crew Trainer",
     companyName: "McDonald's",
     icon: maccas,
-    iconBg: "#383E56",
+    iconBg: "#dc0001",
     date: "Jul 2017 - Oct 2021",
     points: [
       "Training and onboarding new crew members on McDonald's procedures, food safety protocols and customer service standards.",
@@ -96,10 +97,21 @@ const experiences: TExperience[] = [
     ],
   },
   {
+    title: "Data Science Internship",
+    companyName: "Ruby Wednesday Distillery",
+    icon: rwd,
+    iconBg: "#171717",
+    date: "Feb 2023 - Nov 2023",
+    points: [
+      "Analyse data from Squarespace to optimise the targeting and effectiveness of online marketing campaigns.",
+      "Implemented minor front end design changes using primarily css.",
+    ],
+  },
+  {
     title: "Front of House Leader",
     companyName: "Feros Group",
     icon: feros,
-    iconBg: "#E6DEDD",
+    iconBg: "#004135",
     date: "Oct 2021 - Present",
     points: [
       "Leading and mentoring junior front of house staff, providing guidance and support.",

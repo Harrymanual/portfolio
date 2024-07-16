@@ -20,7 +20,7 @@ const Computers: React.FC<{ isMobile: boolean }> = ({ isMobile }) => {
       />
       <spotLight 
         position={[40, 0, 0]} 
-        angle={10} // Adjust angle as needed
+        angle={10} 
         penumbra={1} 
         intensity={1000} 
         castShadow 
