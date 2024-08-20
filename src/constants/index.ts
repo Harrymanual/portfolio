@@ -182,7 +182,7 @@ const projects: TProject[] = [
     name: "Formula 1 Website",
     description:
       `A Formula 1 passion project where I learned how to create and deploy a website from scratch.`,
-    link: "https://harry-formula-1.onrender.com",
+    link: "https://formula-1-website-react.vercel.app/",
     tags: [
       {
         name: "react",
