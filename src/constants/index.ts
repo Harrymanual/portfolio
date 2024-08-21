@@ -203,7 +203,7 @@ const projects: TProject[] = [
   {
     name: "Weight Tracking App",
     description:
-      "A weight tracking app built with react native. This app was created only using Chat GPT as my learning resource to see how effective it is at providing quality information. Spoiler alert not very.",
+      "Weight tracking app built with react native. This app was created only using Chat GPT as my learning resource to see how effective it is at providing quality information. Spoiler alert not very.",
     tags: [
       {
         name: "react native",
