@@ -27,6 +27,7 @@ import r from "./tech/r.png";
 import maccas from "./company/maccas.png";
 import feros from "./company/feros.png";
 import rwd from "./company/rwd.png";
+import fuji from "./company/fujifilm.png"
 
 
 import tube from "./personal_youtube.png";
@@ -65,5 +66,6 @@ export {
   f1,
   weight,
   site,
-  rwd
+  rwd,
+  fuji
 };

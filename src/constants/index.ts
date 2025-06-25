@@ -23,7 +23,8 @@ import {
   site,
   weight,
   tube,
-  rwd
+  rwd,
+  fuji
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -112,11 +113,23 @@ const experiences: TExperience[] = [
     companyName: "Feros Group",
     icon: feros,
     iconBg: "#004135",
-    date: "Oct 2021 - Present",
+    date: "Oct 2021 - Feb 2025",
     points: [
       "Leading and mentoring junior front of house staff, providing guidance and support.",
       "Collaborating closely with back of house teams to ensure smooth service and on time deliveries.",
       "Addressing and resolving customer concerns, demonstrating strong conflict resolution skills and maintaining a positive atmosphere.",
+    ],
+  },
+  {
+    title: "Associate Test Analyst",
+    companyName: "Fujifilm Data Management Solutions",
+    icon: fuji,
+    iconBg: "#004135",
+    date: "Jan 2025 - Present",
+    points: [
+      "Automate end-to-end smoke and regression tests, and maintain robust CI/CD pipelines to ensure rapid and reliable software delivery.",
+      "Develop in-house tools and dashboards, leveraging machine learning algorithms for workload forecasting and process optimisation.",
+      "Perform thorough manual testing to validate edge cases and ensure high-quality releases."
     ],
   },
 ];
@@ -128,7 +141,7 @@ const testimonials: TTestimonial[] = [
     name: "Karyna Deushian",
     designation: "Former Licensee",
     company: "Ugly Pizza, Feros Group",
-    image: "https://media.licdn.com/dms/image/D4E03AQGB2-CUSNxg5A/profile-displayphoto-shrink_800_800/0/1715688276652?e=1726704000&v=beta&t=U5oeHrcrSfEu3q-o9sZUJp7objBq6x1wpSrMulg4xBo",
+    image: undefined,
   },
   {
     testimonial:
@@ -136,7 +149,7 @@ const testimonials: TTestimonial[] = [
     name: "Louise Hannan-Cullen",
     designation: "Licensee",
     company: "Highfields, Feros Group",
-    image: "https://scontent.fsyd11-2.fna.fbcdn.net/v/t1.6435-9/181819382_1900624926756874_4840969318101900456_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=5-nptOQ6PcoQ7kNvgHumIqc&_nc_ht=scontent.fsyd11-2.fna&cb_e2o_trans=t&oh=00_AYBc3uDQgDHBjXzuUsLizL50ZO53ZS6lkSjEPFH1PO4EWg&oe=66BADFCB",
+    image: undefined,
   },
   {
     testimonial:
@@ -144,7 +157,7 @@ const testimonials: TTestimonial[] = [
     name: "Brock Nelson",
     designation: "Licensee",
     company: "Ugly Pizza, Feros Group",
-    image: "https://scontent.fsyd11-1.fna.fbcdn.net/v/t39.30808-6/273975127_10226391841212150_6722240789011228886_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=_mQ1dCEysTwQ7kNvgGhEH2g&_nc_ht=scontent.fsyd11-1.fna&cb_e2o_trans=t&oh=00_AYDC5rRefaa26q5WTQpbQ5IYiMilRpSUsH8ZEwCSLcxSrQ&oe=6699228E",
+    image: undefined,
   },
   {
     testimonial:
@@ -152,7 +165,7 @@ const testimonials: TTestimonial[] = [
     name: "Lachlan Feros",
     designation: "Senior Manager",
     company: "Highfields, Feros Group",
-    image: "https://scontent.fsyd11-1.fna.fbcdn.net/v/t39.30808-6/220275640_1486079521751482_1073711491261092201_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=p0K4LN4_uOcQ7kNvgHbjYJd&_nc_ht=scontent.fsyd11-1.fna&cb_e2o_trans=t&oh=00_AYBxIDtyuxMbcCWbfwqFgLVVaU-KPXbRYv0TxaniJUGvnw&oe=669A6C83",
+    image: undefined,
   },
 ];
 
