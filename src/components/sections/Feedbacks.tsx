@@ -34,11 +34,17 @@ const FeedbackCard: React.FC<{ index: number } & TTestimonial> = ({
           </p>
         </div>
 
-        <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className="h-10 w-10 rounded-full object-cover"
-        />
+        {image ? (
+          <img
+            src={image}
+            alt={`feedback_by-${name}`}
+            className="h-10 w-10 rounded-full object-cover"
+          />
+        ) : (
+          <div className="h-10 w-10 rounded-full bg-gray-400 flex items-center justify-center text-white text-lg font-bold">
+            {name[0]}
+          </div>
+        )}
       </div>
     </div>
   </motion.div>

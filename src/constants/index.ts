@@ -141,7 +141,6 @@ const testimonials: TTestimonial[] = [
     name: "Karyna Deushian",
     designation: "Former Licensee",
     company: "Ugly Pizza, Feros Group",
-    //image: undefined,
   },
   {
     testimonial:
@@ -149,7 +148,6 @@ const testimonials: TTestimonial[] = [
     name: "Louise Hannan-Cullen",
     designation: "Licensee",
     company: "Highfields, Feros Group",
-    //image: undefined,
   },
   {
     testimonial:
@@ -157,7 +155,6 @@ const testimonials: TTestimonial[] = [
     name: "Brock Nelson",
     designation: "Licensee",
     company: "Ugly Pizza, Feros Group",
-    //image: undefined,
   },
   {
     testimonial:
@@ -165,7 +162,6 @@ const testimonials: TTestimonial[] = [
     name: "Lachlan Feros",
     designation: "Senior Manager",
     company: "Highfields, Feros Group",
-    //image: undefined,
   },
 ];
 
